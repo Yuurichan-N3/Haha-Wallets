@@ -53,9 +53,9 @@ python bot.py
 4. **Pilih Mode Proxy**
 Setelah menjalankan script, Anda akan diminta untuk memilih mode proxy:
 
-1. Jalankan dengan proxy sharing
-2. Jalankan dengan Proxy Pribadi
-3. Jalankan tanpa Proxy
+- 1 Jalankan dengan proxy sharing
+- 2 Jalankan dengan Proxy Pribadi
+- 3 Jalankan tanpa Proxy
 
 
 ---
