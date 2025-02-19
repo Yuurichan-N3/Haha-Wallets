@@ -15,21 +15,24 @@ Sebelum menjalankan script, pastikan Anda telah menginstal dependensi yang diper
 
 ```sh
 pip install -r requirements.txt
+```
 
 Atau instal manual:
 
+```sh
 pip install aiohttp aiohttp_socks fake_useragent colorama tqdm pytz
+```
 
 Cara Penggunaan
 
-1. Siapkan Akun
+1. **Siapkan Akun**
 Buat file accounts.txt dan isi dengan daftar akun dalam format:
 
 email1@example.com|password1
 email2@example.com|password2
 
 
-2. Siapkan Proxy (Opsional)
+2. **Siapkan Proxy** (Opsional)
 
 Jika menggunakan proxy pribadi, buat file proxy.txt dan isi daftar proxy dengan format:
 
@@ -40,13 +43,14 @@ Jika memilih proxy gratis, script akan mengunduh daftar proxy otomatis.
 
 
 
-3. Jalankan Script
+3. **Jalankan Script**
 Jalankan script dengan perintah:
 
-python script.py
+```sh
+python bot.py
+```
 
-
-4. Pilih Mode Proxy
+4. **Pilih Mode Proxy**
 Setelah menjalankan script, Anda akan diminta untuk memilih mode proxy:
 
 1. Jalankan dengan proxy sharing
@@ -54,25 +58,16 @@ Setelah menjalankan script, Anda akan diminta untuk memilih mode proxy:
 3. Jalankan tanpa Proxy
 
 
-5. Lihat Hasil
-Script akan menampilkan status login, saldo akun, dan hasil check-in harian.
+---
 
+## 📜 Lisensi  
 
+Script ini didistribusikan untuk keperluan pembelajaran dan pengujian. Penggunaan di luar tanggung jawab pengembang.  
 
-Catatan
-
-Gunakan akun dan proxy dengan bijak untuk menghindari pemblokiran.
-
-Proxy gratis mungkin tidak selalu berfungsi dengan baik.
-
-Jika terjadi kesalahan, coba gunakan proxy pribadi atau jalankan tanpa proxy.
-
-
-Kontak
-
-Gabung dengan komunitas untuk mendapatkan update dan diskusi lebih lanjut: 🔗 Telegram Group: t.me/sentineldiscus
+Untuk update terbaru, bergabunglah di grup **Telegram**: [Klik di sini](https://t.me/sentineldiscus).
 
 
 ---
 
-© 2025 HahaWallet Multi-Account Auto Claimer
+## 💡 Disclaimer: 
+Penggunaan bot ini sepenuhnya tanggung jawab pengguna. Kami tidak bertanggung jawab atas penyalahgunaan skrip ini.
